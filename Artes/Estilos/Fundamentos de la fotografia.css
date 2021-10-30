@@ -1,0 +1,63 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    background-color: #002E17;
+    color: #D4FF0D;
+}
+#tituloMaximo
+{
+    font-family: "Cooper Black";
+    background-color: #0B8000;
+    padding: 10px 15px;
+    color: #CAFF0D;
+    font-size: 60px;
+}
+.subtitulos
+{
+    font-family: "Bahnschrift SemiBold";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: bolder;
+    color: #B3FF0D;
+}
+h2
+{
+    font-family: arial;
+    color: #B3FF0D;
+}
+p
+{
+    font-family: sans-serif;
+}
+.Boton a
+{
+    font-style: normal;
+    text-decoration: none;
+    background-color: #056B1B;
+    color: #76FF0D;
+    padding: 10px 15px;
+    display: block;
+    margin: 10px;
+    width: 45px;
+    border-radius: 10px 10px;
+    transition: .3s;
+}
+.Boton a:hover
+{
+    box-shadow: 5px 5px 5px black;
+}
+article
+{ 
+    background-color: #086300;
+    padding: 10px 15px;
+    margin: 40px 100px;
+}
+ul li
+{
+    margin: 10px 15px;
+    list-style: none;
+}
