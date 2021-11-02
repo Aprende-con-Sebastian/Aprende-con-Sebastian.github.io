@@ -1,6 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:100);
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+    scroll-behavior: smooth;
+  }
 }
 
 html, body {
@@ -176,6 +184,7 @@ a {
     border-radius: 10px 10px;
     transition: .3s;
     font-family: 'Lato', sans-serif;
+    display: inline-block;
 }
 .button a:hover
 {
@@ -185,7 +194,7 @@ a {
 {
     list-style-image: url('../Assets/images/list.png');
 }
-.menu-heading
+.title
 {
     font-family: 'Architects Daughter', cursive, 'Permanent Marker', cursive;
 }
@@ -204,3 +213,4 @@ a {
     color: #574242;
     text-decoration: underline;
 }
+
